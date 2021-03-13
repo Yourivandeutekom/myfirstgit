@@ -11,8 +11,8 @@
             </h1>
             <p>
                 Create directory: git init<br/>
-                Configure git my name: git config --global user.name 'Youri van Deutekom'<br/>
-                Configure git my email: git config --global user.email 'yourivandeutekom@gmail.com'<br/>
+                Configure git my name: git config --global user.name 'My name'<br/>
+                Configure git my email: git config --global user.email 'My email'<br/>
                 add file to commit(track): git add filename.extension<br/>
                 Ask for status: git status<br/>
                 Remove file to commit(track): git rm --cached filename.extension<br/>
@@ -27,6 +27,27 @@
             <p>
                 Create ignore file: touch .gitignore<br/>
                 Add the file to be ignored on each line, for a folder enter /foldername<br/><br/>
+            </p>
+            <h2>
+                Add branches.
+            </h2>
+            <p>
+                Add branches: git branch NAMEOFBRANCH<br/>
+                Switch to branches: git checkout NAMEOFBRANCH<br/>
+                Merge branch to the master step 1: git checkout master<br/>
+                step 2: merge branch 'NAMEOFBRANCH'<br/>
+                step 3: under the line add a commit message.<br/>
+                step 4: press on 'esc' and ":wq"<br/>
+            </p>
+            <h2>
+                Add remote repository.
+            </h2>
+            <p>
+                Create new repository <a href="https://github.com">github</a><br/>
+                <b>Follow the instructions on the website!</b>
+                from a existing git init follow the steps from: git remote add origin LINK<br/>
+                then push the git: git push -u origin main<br/>
+
             </p>
         </article>
     </body>
